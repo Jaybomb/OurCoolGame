@@ -8,5 +8,7 @@
 position = Vector2( 382, 250 )
 texture = ExtResource( 1 )
 script = ExtResource( 2 )
+_sections_unfolded = [ "Transform" ]
+speed = 10
 
 
