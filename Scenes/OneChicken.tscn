@@ -3,12 +3,11 @@
 [ext_resource path="res://Images/chick.png" type="Texture" id=1]
 [ext_resource path="res://Scenes/OneChicken.gd" type="Script" id=2]
 
-[node name="Chicken" type="Sprite"]
+[node name="Chicken" type="Sprite" index="0"]
 
 position = Vector2( 382, 250 )
 texture = ExtResource( 1 )
 script = ExtResource( 2 )
-_sections_unfolded = [ "Transform" ]
-defaultSpeed = 10
+defaultSpeed = 1
 
 
